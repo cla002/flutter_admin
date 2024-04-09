@@ -1,0 +1,40 @@
+name: admin_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0-99.1.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.27.1
+  cloud_firestore: ^4.15.9
+  firebase_storage: ^11.6.10
+  flutter_easyloading: ^3.0.5
+  firebase_auth: ^4.17.9
+  flutter_admin_scaffold: ^1.2.0
+  file_picker: ^8.0.0+1
+  shared_preferences: ^2.2.2
+  chips_choice: ^3.0.1
+  flutter_switch: ^0.3.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - lib/images/
